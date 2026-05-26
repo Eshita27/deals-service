@@ -1,7 +1,23 @@
-__pycache__/
-*.py[cod]
-*$py.class
+# IDE Local Configurations
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Python Virtual Environments
 .venv/
 venv/
 ENV/
-.env
+env/
+
+# Python Cache compiler files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+docker-compose.yml
